@@ -1,0 +1,201 @@
+@font-face {
+  font-family: Iran-sans-ultra-light;
+  src: url(../fonts/IRANSansX-UltraLight.woff2);
+}
+@font-face {
+  font-family: Iran-sans-thin;
+  src: url(../fonts/IRANSansX-Thin.woff2);
+}
+@font-face {
+  font-family: Iran-sans-regular;
+  src: url(../fonts/IRANSansX-Regular.woff2);
+}
+@font-face {
+  font-family: Iran-sans-medium;
+  src: url(../fonts/IRANSansX-Medium.woff2);
+}
+@font-face {
+  font-family: Iran-sans-light;
+  src: url(../fonts/IRANSansX-Light.woff2);
+}
+@font-face {
+  font-family: Iran-sans-heavy;
+  src: url(../fonts/IRANSansX-Heavy.woff2);
+}
+@font-face {
+  font-family: Iran-sans-extra-bold;
+  src: url(../fonts/IRANSansX-ExtraBold.woff2);
+}
+@font-face {
+  font-family: Iran-sans-extra-black;
+  src: url(../fonts/IRANSansX-ExtraBlack.woff2);
+}
+@font-face {
+  font-family: Iran-sans-demi-bold;
+  src: url(../fonts/IRANSansX-DemiBold.woff2);
+}
+@font-face {
+  font-family: Iran-sans-bold;
+  src: url(../fonts/IRANSansX-Bold.woff2);
+}
+@font-face {
+  font-family: Iran-sans-black;
+  src: url(../fonts/IRANSansX-Black.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  padding: 0 200px;
+}
+
+body {
+  direction: rtl;
+  font-family: Iran-sans-medium;
+}
+body main {
+  flex-direction: column;
+  align-items: center;
+}
+body main .hero {
+  width: 100%;
+}
+body main .hero nav {
+  width: 100%;
+  height: 130px;
+  padding: 0 100px;
+  align-items: center;
+}
+body main .hero nav .menu {
+  width: 100%;
+  margin-right: 5%;
+}
+body main .hero nav .menu ul {
+  min-width: 70%;
+  justify-content: space-between;
+}
+body main .hero nav .menu ul li a {
+  color: #111;
+  font-family: Iran-sans-regular;
+}
+body main .hero .wrapper {
+  width: 100%;
+  height: 480px;
+  background-color: #21aa58;
+}
+body main .hero .wrapper .right-part {
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+body main .hero .wrapper .right-part h1 {
+  width: 95%;
+  font-size: 36px;
+  color: #fff;
+  text-align: justify;
+}
+body main .hero .wrapper .right-part p {
+  color: #fff;
+  width: 90%;
+}
+body main .hero .wrapper .right-part .row form input[type=number] {
+  height: 40px;
+  width: 250px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  align-items: center;
+}
+body main .hero .wrapper .right-part .row form input[type=number] input[type=number]:focus {
+  outline: none;
+}
+body main .hero .wrapper .right-part .row form input[type=number] input[type=submit] {
+  width: 125px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: none;
+  color: #21aa58;
+  font-family: Iran-sans-demi-bold;
+}
+body main .hero .wrapper .right-part .row form input[type=number] a {
+  width: 250px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: #fff;
+  font-family: Iran-sans-demi-bold;
+}
+body main .hero .wrapper .left-part {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../images/man.jpg);
+}
+body main .download-box {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .options {
+  background-color: #f2f5f8;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+}
+body main .options-container {
+  display: flex;
+  width: 85%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 4%;
+}
+body main .options-container .option {
+  width: 295px;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+}
+body main .options-container .option .left-part {
+  padding: 10px;
+}
+body main .options-container .option h3 {
+  font-size: 16px;
+}
+body main .options-container .option p {
+  color: #a3a3a3;
+}
+
+/*# sourceMappingURL=style.css.map */
