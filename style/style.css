@@ -197,5 +197,18 @@ body main .options-container .option h3 {
 body main .options-container .option p {
   color: #a3a3a3;
 }
+body main .food {
+  width: 86%;
+  height: 310px;
+  justify-content: center;
+  align-items: center;
+}
+body main .food img {
+  width: 100%;
+  height: 310px;
+  border-radius: 10px;
+}
+
+/* DRY  Dont Repeat Yourself */
 
 /*# sourceMappingURL=style.css.map */
